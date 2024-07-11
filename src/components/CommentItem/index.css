@@ -1,0 +1,113 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.cmt-item {
+  list-style-type: none;
+}
+.cmt-cont {
+  display: flex;
+}
+.initial-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin-top: 18px;
+  margin-right: 8px;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+.initial {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+  color: #ffffff;
+}
+.user-cont {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #334155;
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #94a3b8;
+}
+.cmt {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+}
+.btn-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-cont {
+  display: flex;
+  align-items: center;
+}
+.like-img {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+.btn {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.delete-img {
+  height: 20px;
+  width: 20px;
+}
+.cmt-line {
+  width: 100%;
+  border: 1px solid #dee0e3;
+}
